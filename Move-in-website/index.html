@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./box-seam.svg" alt="box logo" height="30"> Mude</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Página inicial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Serviços 
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="CEP" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+      
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis">Mude com alegria!</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Bem-vindo ao nosso site, onde estamos em uma missão de oferecer serviços de mudança excepcionais para clientes nos Estados Unidos. Como uma startup, acreditamos que mudar não precisa ser estressante ou complicado, e somos apaixonados por tornar o processo o mais tranquilo e agradável possível.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Solicite um orçamento!</button>
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contate-nos</button>
+          </div>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh;">
+          <div class="container px-5">
+            <img src="./moving-van.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+          </div>
+        </div>
+    </div>
+
+    <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">Features</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./briefcase.svg" alt="briefcase" height="30">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Por que se mudar com a gente?</h3>
+            <p>Nossa equipe de profissionais de mudança é treinada para priorizar eficiência, organização e atenção aos detalhes. Entendemos que seus pertences são mais do que apenas objetos – eles são uma reflexão da sua vida, memórias e experiências. É por isso que tomamos todo o cuidado necessário para garantir que tudo seja embalado e transportado com o máximo de atenção e zelo.</p>
+            <a href="#" class="icon-link">
+                Solicite um orçamento!
+              <img src="./chevron-right.svg" alt="chevron-right">
+            </a>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./bus-front.svg" alt="bus-front" height="30">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Cobertura nacional</h3>
+            <p>Oferecemos uma variedade de serviços para atender às suas necessidades individuais, seja você se mudando localmente ou para outro estado. Nossa equipe pode cuidar de tudo, desde o empacotamento e carregamento até o descarregamento e desembalagem, permitindo que você se concentre em se instalar na sua nova casa. E com nossos preços transparentes e sem taxas ocultas, você pode confiar que está obtendo uma tarifa justa e competitiva pelos nossos serviços.</p>
+            <a href="#" class="icon-link">
+                Solicite um orçamento!
+                <img src="./chevron-right.svg" alt="chevron-right">
+            </a>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="./chat-square-heart.svg" alt="chat-square-heart height="30">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Um toque especial</h3>
+            <p>No fundo, acreditamos que mudar deve ser uma experiência emocionante e positiva, e não estressante. Ao oferecer serviços de mudança excepcionais nos Estados Unidos, esperamos revolucionar a forma como as pessoas enxergam o processo de mudança e proporcionar uma experiência melhor e mais personalizada para nossos clientes. Entre em contato conosco hoje mesmo para saber mais sobre como podemos ajudá-lo na sua próxima mudança.</p>
+            <a href="#" class="icon-link">
+                Solicite um orçamento!
+                <img src="./chevron-right.svg" alt="chevron-right">
+            </a>
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./family.jpg" class="d-block w-100" alt="family">
+              </div>
+              <div class="carousel-item">
+                <img src="./dog.jpg" class="d-block w-100" alt="dog">
+              </div>
+              <div class="carousel-item">
+                <img src="./couple.jpg" class="d-block w-100" alt="couple">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+    </div>
+
+    
+    <div class="container">
+        <footer class="py-5">
+            <div class="row">
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+            </div>
+          
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+            </div>
+          
+            <div class="col-6 col-md-2 mb-3">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                </ul>
+            </div>
+          
+            <div class="col-md-5 offset-md-1 mb-3">
+                <form>
+                  <h5>Inscreva-se no nosso portal de notícias</h5>
+                  <p>Conteúdo mensal com novidades sobre nós.</p>
+                    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                      <label for="newsletter1" class="visually-hidden">Email address</label>
+                      <input id="newsletter1" type="text" class="form-control" placeholder="Endereço de email">
+                      <button class="btn btn-primary" type="button">Inscrever</button>
+                    </div>
+                </form>
+            </div>
+
+            </div>
+          
+              <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                <p>© 2024 Company, Inc. Todos os direitos reservados.</p>
+              </div>
+            </footer>
+        </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
