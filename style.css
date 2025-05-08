@@ -538,25 +538,9 @@ body {
   padding: 20px 60px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.footer__brand {
-  display: flex;
-  align-items: flex-end;
-  gap: 30px;
-}
-
-.footer__brand a {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.footer__brand p {
-  font-size: 13px;
-  color: #6b7280;
-  font-weight: 500;
-}
 
 @media screen and (max-width: 1230px) {
   .hero__image {
