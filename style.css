@@ -69,7 +69,6 @@ html {
   font-size: 30px;
 }
 
-
 .navbar__menu,
 .footer__links {
   display: flex;
@@ -141,7 +140,7 @@ html {
   justify-content: space-between;
   padding: 100px 60px;
   gap: 60px;
-  height: calc(100vh - 75px);
+  height: calc(60vh - 75px);
 }
 
 .hero__content,
@@ -165,6 +164,7 @@ html {
 
 .hero__intro {
   padding-right: 40px;
+  padding-bottom: 5%;
 }
 
 .hero__intro h3 {
@@ -198,8 +198,8 @@ html {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  right: 30px;
-  top: 20%;
+  right: 5%;
+  top: 30%;
 }
 
 .hero__socials a {
@@ -371,10 +371,9 @@ html {
     box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.4s;
   will-change: transform, box-shadow;
   transform: translateZ(0);
-
 }
 .project-card:hover {
-  transform: translateY(-8px) scale(1.00);
+  transform: translateY(-8px) scale(1);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
   background-color: #fafafa;
 }
@@ -544,7 +543,6 @@ html {
   justify-content: center;
 }
 
-
 @media screen and (max-width: 1230px) {
   .hero__image {
     width: 100%;
@@ -613,24 +611,25 @@ html {
   .hero__intro h3 {
     font-size: 22px;
     line-height: 34px;
-    padding-left: 13%;
+    padding-left: 5%;
     text-align: center;
   }
 
   .hero__intro p {
     font-size: 13px;
     text-align: center;
-    padding-left: 12%;
+    padding-left: 5%;
   }
-  .hero__actions{
-    width: 115%;
+  .hero__actions {
+    width: 110%;
     justify-content: center;
-    display: flex
-;
+    display: flex;
   }
 
   .hero__socials {
-    top: 6%;
+    top: 20%;
+    display: flex;
+    flex-direction: row;
   }
 
   .skills {
@@ -707,7 +706,7 @@ html {
     right: auto;
     margin-top: 10px;
   }
-  .skills__stats{
+  .skills__stats {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
