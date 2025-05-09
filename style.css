@@ -140,7 +140,7 @@ html {
   justify-content: space-between;
   padding: 100px 60px;
   gap: 60px;
-  height: calc(60vh - 75px);
+  height: 90vh;
 }
 
 .hero__content,
@@ -159,7 +159,7 @@ html {
   line-height: 60px;
   font-weight: 400;
   margin-top: 20px;
-  width: 85%;
+  width: 70%;
 }
 
 .hero__intro {
