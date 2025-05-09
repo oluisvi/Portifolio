@@ -1,12 +1,10 @@
-Personal Portfolio
+### Personal Portfolio
 A modern, responsive personal portfolio website developed to showcase my skills, projects, and contact information in a clean and professional way.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-
 Portifolio image:
 
----------------------------------------------------------------------------------------------------------------------------------------------------
 
 ![Portofolio capa](https://github.com/user-attachments/assets/b6a47137-01fd-49b5-ba38-b7606ffbe770)
 
@@ -53,7 +51,7 @@ Or use Live Server (VS Code extension) to run locally.
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 🌐 Demo
-Live demo: personalportifolio.netlify.app
+Live demo: [personalportifolio.netlify.app](https://personalportifolio.netlify.app/)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
