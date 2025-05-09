@@ -1,21 +1,44 @@
-# Personal Portfolio Design #09
-Are you ready to create a professional and visually appealing personal portfolio website? In this tutorial ([Open in Youtube](https://youtu.be/LIuJUzdFWfs)) , we'll walk you through every step to build your very own portfolio from scratch using HTML and CSS! 🌐✨ Perfect for developers, designers, or anyone looking to showcase their skills and projects online.
+Personal Portfolio
+A modern, responsive personal portfolio website developed to showcase my skills, projects, and contact information in a clean and professional way.
 
-🔑 What You'll Learn:
+Imagem do portifolio:
 
-- Responsive Design: Learn to build a fully responsive portfolio that looks amazing on any device, from desktop to mobile. 📱💻
-- Modern Layouts with Flexbox: Discover how to structure your website using Flexbox to achieve clean, professional layouts effortlessly.
-- Custom Styling: Dive into CSS techniques to make your site stand out with custom fonts, colors, and icons. 💡🎨
-- Interactive Features: Add buttons, links, and contact forms to make your portfolio fully interactive and user-friendly.
+![Portofolio capa](https://github.com/user-attachments/assets/b6a47137-01fd-49b5-ba38-b7606ffbe770)
 
-👨‍💻 Who Is This For?
 
-Whether you're a beginner or an experienced web developer, this video has everything you need to build a stunning, professional portfolio. Follow along as we break down each section step-by-step, ensuring you understand the best practices in HTML and CSS development.
+✨ Features
+⚡ Responsive design — Adapts seamlessly to all devices (desktop, tablet, mobile)
 
-🛠️ Start Building Today!
+🛠️ Projects showcase — Highlights key projects with links and descriptions
 
-Create a portfolio website that not only showcases your skills and projects but also leaves a lasting impression on potential clients and employers. Don't wait—start building your personal brand now with HTML and CSS!
+📇 Contact section — Allows visitors to easily get in touch
 
-# Screenshot
+🎨 Modern UI — Clean and elegant layout with smooth transitions
 
-Here we have project screenshot :
+🧑‍💻 About Me
+I’m Luis Henrique Vieira Barros, a passionate front-end developer focused on creating intuitive and modern web experiences.
+Currently studying Analysis and Systems Development at UNIP, I enjoy combining design with clean code to build engaging digital products.
+
+🛠️ Technologies Used
+
+
+
+🚀 How to use
+Clone the repository
+
+bash
+Copiar
+Editar
+git clone https://github.com/oluisvi/personal-portfolio.git
+Open index.html in your browser
+Or use Live Server (VS Code extension) to run locally.
+
+🌐 Demo
+Live demo: personalportifolio.netlify.app
+
+📩 Contact
+Developed by Luis Henrique Vieira Barros
+📧 Email: oluisvipersonal@gmail.com
+🌐 GitHub: github.com/oluisvi
+📱 Phone: (12) 99256-8583
+
