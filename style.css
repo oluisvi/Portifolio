@@ -689,6 +689,11 @@ body {
     right: auto;
     margin-top: 10px;
   }
+  .skills__stats{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 
   .showcase__header h3 {
     font-size: 24px;
