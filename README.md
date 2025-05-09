@@ -42,10 +42,15 @@ Currently studying Analysis and Systems Development at UNIP, I enjoy combining d
 Clone the repository
 
 bash
+
 Copiar
+
 Editar
+
 git clone https://github.com/oluisvi/personal-portfolio.git
+
 Open index.html in your browser
+
 Or use Live Server (VS Code extension) to run locally.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
