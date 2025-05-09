@@ -23,7 +23,8 @@ Portifolio image:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-🧑‍💻  About Me
+🧑‍💻  About Me:
+
 I’m Luis Henrique Vieira Barros, a passionate front-end developer focused on creating intuitive and modern web experiences.
 Currently studying Analysis and Systems Development at UNIP, I enjoy combining design with clean code to build engaging digital products.
 
