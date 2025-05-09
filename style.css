@@ -613,10 +613,20 @@ html {
   .hero__intro h3 {
     font-size: 22px;
     line-height: 34px;
+    padding-left: 13%;
+    text-align: center;
   }
 
   .hero__intro p {
     font-size: 13px;
+    text-align: center;
+    padding-left: 12%;
+  }
+  .hero__actions{
+    width: 115%;
+    justify-content: center;
+    display: flex
+;
   }
 
   .hero__socials {
@@ -639,6 +649,11 @@ html {
 
   .skills__desc {
     padding-right: 0;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 
   .showcase {
