@@ -42,12 +42,6 @@ Currently studying Analysis and Systems Development at UNIP, I enjoy combining d
 🚀 How to use
 Clone the repository
 
-bash
-
-Copiar
-
-Editar
-
 git clone https://github.com/oluisvi/personal-portfolio.git
 
 Open index.html in your browser
