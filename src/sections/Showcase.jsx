@@ -32,6 +32,22 @@ export default function Showcase() {
         "Website developed as a management dashboard for an Urban Farm, providing coworkers with real-time insights into the farm’s operations and processes.",
       link: "https://oluisvi.github.io/pim/dashboard.html",
     },
+     {
+      title: "Photo Gallery",
+      date: "May 2025",
+      image: "assets/Gallery.jpeg",
+      description:
+        "Developing a dynamic image gallery powered by an external API, designed to deliver responsive layouts, fluid browsing, and visually engaging user interaction.",
+      link: "https://gallery-sigma-one-89.vercel.app/",
+    },
+     {
+      title: "Form",
+      date: "May 2025",
+      image: "assets/Form.jpeg",
+      description:
+        "Building an intuitive and accessible form interface that streamlines user input, validates data in real-time, and ensures a smooth submission experience across all devices.",
+      link: "https://form-eight-sepia.vercel.app/",
+    }
   ];
 
   return (
