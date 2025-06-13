@@ -16,7 +16,7 @@ export default function Hero() {
       </div>
 
       <article className="hero__intro">
-        <h2>Front-end Developer from São Paulo, Brazil</h2>
+        <h2>Front-end Developer and UX Designer from São Paulo, Brazil</h2>
         <p>
           Crafting intuitive and high-performance web interfaces for digital
           solutions.
