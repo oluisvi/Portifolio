@@ -30,7 +30,7 @@ export default function Showcase() {
       image: "assets/fazenda.jpeg",
       description:
         "Website developed as a management dashboard for an Urban Farm, providing coworkers with real-time insights into the farm’s operations and processes.",
-      link: "https://oluisvi.github.io/pim/dashboard.html",
+      link: "https://terras-mil.netlify.app/",
     },
      {
       title: "Photo Gallery",
