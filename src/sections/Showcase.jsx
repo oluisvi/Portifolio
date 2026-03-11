@@ -17,12 +17,19 @@ export default function Showcase() {
       link: "https://foodsprojectdemo.netlify.app/",
     },
     {
-      title: "Sanctuary Hotel",
-      date: "January 2025",
-      image: "assets/sanctuary.png",
+      title: "UrbanFarme",
+      date: "March 2026",
+      image: "assets/urbanFarm.png",
       description:
-        "Designing and developing a modern, elegant website that showcases the hotel’s amenities and services, offering guests an inviting preview of their stay and an effortless way to connect and book.",
-      link: "https://sanctuaryhotel.my.canva.site/",
+        "Fully compatible web, desktop and mobile urban farm management system, integrated to a database via self made API for the project, deployed totally online.",
+      link: "https://https://fazenda-urbana.onrender.com/",
+    },
+    {
+      title: "Gallery",
+      date: "May 2025",
+      image: "assets/Gallery.jpeg",
+       "Developing a dynamic image gallery powered by an external API, designed to deliver responsive layouts, fluid browsing, and visually engaging user interaction.",
+      link: "https://gallery-sigma-one-89.vercel.app/",
     },
     {
       title: "Terras Mil",
@@ -32,14 +39,7 @@ export default function Showcase() {
         "Website developed as a management dashboard for an Urban Farm, providing coworkers with real-time insights into the farm’s operations and processes.",
       link: "https://terras-mil.netlify.app/",
     },
-     {
-      title: "UrbanFarme",
-      date: "March 2026",
-      image: "assets/urbanFarm.png",
-      description:
-        "Developing a urban farm management system, with mobile, desktop and web versions, integrated to a database via self made API for the project, deployed totally online.",
-      link: "https://https://fazenda-urbana.onrender.com/",
-    },
+     ,
      {
       title: "Form",
       date: "May 2025",
