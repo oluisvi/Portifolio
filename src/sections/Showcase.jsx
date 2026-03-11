@@ -33,12 +33,12 @@ export default function Showcase() {
       link: "https://terras-mil.netlify.app/",
     },
      {
-      title: "Photo Gallery",
-      date: "May 2025",
-      image: "assets/Gallery.jpeg",
+      title: "UrbanFarme",
+      date: "March 2026",
+      image: "assets/urbanFarm.png",
       description:
-        "Developing a dynamic image gallery powered by an external API, designed to deliver responsive layouts, fluid browsing, and visually engaging user interaction.",
-      link: "https://gallery-sigma-one-89.vercel.app/",
+        "Developing a urban farm management system, with mobile, desktop and web versions, integrated to a database via self made API for the project, deployed totally online.",
+      link: "https://https://fazenda-urbana.onrender.com/",
     },
      {
       title: "Form",
