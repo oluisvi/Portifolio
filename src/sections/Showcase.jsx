@@ -28,6 +28,7 @@ export default function Showcase() {
       title: "Gallery",
       date: "May 2025",
       image: "assets/Gallery.jpeg",
+      description:
        "Developing a dynamic image gallery powered by an external API, designed to deliver responsive layouts, fluid browsing, and visually engaging user interaction.",
       link: "https://gallery-sigma-one-89.vercel.app/",
     },
