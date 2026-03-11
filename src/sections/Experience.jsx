@@ -12,9 +12,19 @@ export default function(){
           <i className="ri-pen-nib-line"></i>
           <div className="job__info">
             <h5>
-              Fullstack Developer at <span>Compass UOL</span>
+              English and Programming Teacher at <span>DiscoverON </span>
             </h5>
-            <p>October 2024 - April 2025</p>
+            <p>September 2025 - Present</p>
+          </div>
+        </article>
+
+        <article className="job">
+          <i className="ri-pen-nib-line"></i>
+          <div className="job__info">
+            <h5>
+              Volunteer Web Developer at <span>Frontend Fusion</span>
+            </h5>
+            <p>June 2025 - Present</p>
           </div>
         </article>
 
@@ -22,11 +32,22 @@ export default function(){
           <i className="ri-reactjs-fill"></i>
           <div className="job__info">
             <h5>
-              Front-End Developer as <span>Freelancer</span>
+              Fullstack Developer as <span>Freelancer</span>
             </h5>
             <p>April 2024 – Present</p>
           </div>
         </article>
+
+        <article className="job">
+          <i className="ri-pen-nib-line"></i>
+          <div className="job__info">
+            <h5>
+              Fullstack Developer Intern at <span>Compass UOL</span>
+            </h5>
+            <p>October 2024 - April 2025</p>
+          </div>
+        </article>
+        
       </section>
 
       <section className="career__awards">
